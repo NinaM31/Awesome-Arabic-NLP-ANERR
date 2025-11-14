@@ -1,9 +1,9 @@
 <div align=center>
 <img src="https://github.com/user-attachments/assets/d5c4a90c-2a75-4cba-9577-c2423d28e50a?raw=true" width="300px">
 </div>
-<h2 align="center">Arabic NLP Essential Resources Repository (ANERR): Resources, Surveys, Reviews, and Research</h2>
+<h2 align="center">Arabic NLP Essential Resources (ANER): Resources, Surveys, Reviews, and Research</h2>
 
-![Total Papers](https://img.shields.io/badge/Paper_Count-201-6A737D?style=for-the-badge)
+![Total Papers](https://img.shields.io/badge/Paper_Count-210-6A737D?style=for-the-badge)
 ![NLP Tasks](https://img.shields.io/badge/Tasks-9-6A737D?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/NinaM31/Arabic-NLP-Resources?style=for-the-badge&color=6A737D)
 ![License](https://img.shields.io/badge/License-MIT-6A737D?style=for-the-badge)
@@ -21,8 +21,7 @@ This repository serves as a curated collection of surveys, studies, and research
 - [Retrieval Augmented Generation](#arabic-retrieval-augmented-generation)
 - [Image Captioning](#arabic-image-captioning)
 - [Named Entity Recognition](#arabic-named-entity-recognition)
-- [Arabic LLM](#arabic-llm)
-
+- [LLM](#arabic-llm)
 
 ## Arabic Text Diacritization
 ![ATD:](https://img.shields.io/badge/Papers-25-6A737D?style=for-the-badge)
@@ -323,10 +322,11 @@ This repository serves as a curated collection of surveys, studies, and research
 
 
 # Arabic LLM
-![ANER:](https://img.shields.io/badge/Papers-10-6A737D?style=for-the-badge)
+![ANER:](https://img.shields.io/badge/Papers-11-6A737D?style=for-the-badge)
 ### Studies & Surveys
 |Title                                                                                                                                    |Year| Link                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------|----|-----------------------------------------------------------------------------------------------  |
+|Evaluating Arabic Large Language Models: A Survey of Benchmarks, Methods, and Gaps                                                       |2025|[arXiv](https://doi.org/10.48550/arXiv.2510.13430)                                               |
 |Evaluating Translation Quality: A Qualitative and Quantitative Assessment of Machine and LLM-Driven Arabic–English Translations          |2025|[INFO](https://doi.org/10.3390/info16060440)                                                     |
 |AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic|2024|[IEEE](https://doi.org/10.1109/ACCESS.2024.3491897)|2025|[arXiv](https://arxiv.org/abs/2412.04193)                                                        |
 |Large Language Models and Arabic Content: A Review                                                                                       |2025|[arXiv](https://arxiv.org/abs/2505.08004)                                                        |
@@ -336,9 +336,29 @@ This repository serves as a curated collection of surveys, studies, and research
 ### Papers
 |Title                                                                                                               |Year|Link                                                                               |
 |------------------------------------------------------------------------------------------------------------------- |----|---------------------------------------------------------------------------------- |
+|AraHalluEval: A Fine-grained Hallucination Evaluation Framework for Arabic LLMs                                     |2025|[ACL](https://doi.org/10.18653/v1/2025.arabicnlp-main.12)                          |
 |Command R7B Arabic: A Small, Enterprise Focused, Multilingual, and Culturally Aware Arabic LLM                      |2025|[arXiv](https://arxiv.org/abs/2503.14603)                                          |
-|Multi-Hop Arabic LLM Reasoning in Complex QA                                                                        |2024|[ELSEVIER](https://www.sciencedirect.com/science/article/pii/S1877050924029806)    |
 |Synthetic Arabic Medical Dialogues Using Advanced Multi-Agent LLM Techniques                                        |2024|[ACL](https://doi.org/10.18653/v1/2024.arabicnlp-1.2)                              |
 |Creating Arabic LLM Prompts at Scale                                                                                |2024|[arXiv](https://arxiv.org/abs/2408.05882)                                          |
 |ALLaM: Large Language Models for Arabic and English                                                                 |2024|[arXiv](https://arxiv.org/abs/2407.15390)                                          |
 |Arabic Mini-ClimateGPT : A Climate Change and Sustainability Tailored Arabic LLM                                    |2023|[arXiv](https://arxiv.org/abs/2312.09366)                                          |
+
+# Arabic LLM Reasoning
+![ANER:](https://img.shields.io/badge/Papers-8-6A737D?style=for-the-badge)
+### Studies & Surveys
+|Title                                                                                                                                    |Year| Link                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------|----|-----------------------------------------------------------------------------------------------  |
+|Saudi-Alignment Benchmark: Assessing LLMs Alignment with Cultural Norms and Domain Knowledge in the Saudi Context                        |2025|[ACL](https://doi.org/10.18653/v1/2025.arabicnlp-main.11)                                        |
+|ArabicSense: A Benchmark for Evaluating Commonsense Reasoning in Arabic with Large Language Models                                       |2025|[ACL](https://aclanthology.org/2025.wacl-1.1/)                                                   |
+|AraTable: Benchmarking LLMs' Reasoning and Understanding of Arabic Tabular Data                                                          |2025|[arXiv](https://doi.org/10.48550/arXiv.2507.18442)                                               |
+|AraReasoner: Evaluating Reasoning-Based LLMs for Arabic NLP                                                                              |2025|[arXiv](https://doi.org/10.48550/arXiv.2506.08768)                                               |
+
+
+### Papers
+|Title                                                                                                               |Year|Link                                                                               |
+|------------------------------------------------------------------------------------------------------------------- |----|---------------------------------------------------------------------------------- |
+|In-Context Learning in Large Language Models (LLMs): Mechanisms, Capabilities, and Implications for Advanced Knowledge Representation and Reasoning|2025|[IEEE](https://doi.org/10.1109/ACCESS.2025.3575303) |
+|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World                              |2025|[ACL](https://doi.org/10.18653/v1/2025.findings-emnlp.247)                         |
+|Fann or Flop: A Multigenre, Multiera Benchmark for Arabic Poetry Understanding in LLMs                              |2025|[ACL](https://doi.org/10.18653/v1/2025.emnlp-main.1023)                            |
+|Multi-Hop Arabic LLM Reasoning in Complex QA                                                                        |2024|[ELSEVIER](https://www.sciencedirect.com/science/article/pii/S1877050924029806)    |
+
