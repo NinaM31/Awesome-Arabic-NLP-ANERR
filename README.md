@@ -1,10 +1,10 @@
 <div align=center>
 <img src="https://github.com/user-attachments/assets/d5c4a90c-2a75-4cba-9577-c2423d28e50a?raw=true" width="300px">
 </div>
-<h2 align="center">Arabic NLP Essential Resources (ANER): Resources, Surveys, Reviews, and Research</h2>
+<h2 align="center">Arabic NLP Essential Resource Repository (ANERR): Surveys, Studies, and Research</h2>
 
-![Total Papers](https://img.shields.io/badge/Paper_Count-210-6A737D?style=for-the-badge)
-![NLP Tasks](https://img.shields.io/badge/Tasks-9-6A737D?style=for-the-badge)
+![Total Papers](https://img.shields.io/badge/Paper_Count-222-6A737D?style=for-the-badge)
+![NLP Tasks](https://img.shields.io/badge/Tasks-10-6A737D?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/NinaM31/Arabic-NLP-Resources?style=for-the-badge&color=6A737D)
 ![License](https://img.shields.io/badge/License-MIT-6A737D?style=for-the-badge)
 
@@ -19,6 +19,7 @@ This repository serves as a curated collection of surveys, studies, and research
 - [Sentiment Analysis](#arabic-sentiment-analysis)
 - [Question-Answering Systems](#arabic-question-answering-systems)
 - [Retrieval Augmented Generation](#arabic-retrieval-augmented-generation)
+- [Information Retrieval](#arabic-information-retrieval)
 - [Image Captioning](#arabic-image-captioning)
 - [Named Entity Recognition](#arabic-named-entity-recognition)
 - [LLM](#arabic-llm)
@@ -27,20 +28,20 @@ This repository serves as a curated collection of surveys, studies, and research
 ![ATD:](https://img.shields.io/badge/Papers-25-6A737D?style=for-the-badge)
 
 ### Corpus
-| Title                                                                                                          |Corpus Link                                                                                           |Paper Link                                                                | Type                  | Availability|Tokens|
-| -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |-----------------------|-------------|-----|
-|OpenITI                                                                                                         |[github](https://github.com/OpenITI/RELEASE)                                                          | N/A                                                                      |Classical Arabic       |Free         |2.2B |
-|Tashkeela                                                                                                       |[kaggle](https://www.kaggle.com/datasets/linuxscout/tashkeela/data)                                   |[ELSEVIER](https://doi.org/10.1016/j.dib.2017.01.011)                     |Mostly Classical Arabic|Free         |75.6M|
-|ATB                                                                                                             |[LDC](https://catalog.ldc.upenn.edu/LDC2003T06)                                                       | N/A                                                                      |Modern Standard Arabic |Commercial   |1M   |
-|Tanzil Quran text                                                                                               |[tanzil](https://tanzil.net/download/)                                                                | N/A                                                                      |Classical Arabic       |Free         |78K  |
-|Wikinews                                                                                                        |[github](https://github.com/kdarwish/Farasa)                                                          | N/A                                                                      |Modern Standard Arabic |Free         |18K  |
+| Title                                 |Corpus Link                                                              |Paper Link                                                                | Type                  | Availability|Tokens|
+| --------------------------------------| ------------------------------------------------------------------------| ------------------------------------------------------------------------ |-----------------------|-------------|-----|
+|OpenITI                                |[github](https://github.com/OpenITI/RELEASE)                             | N/A                                                                      |Classical Arabic       |Free         |2.2B |
+|Tashkeela                              |[kaggle](https://www.kaggle.com/datasets/linuxscout/tashkeela/data)      |[ELSEVIER](https://doi.org/10.1016/j.dib.2017.01.011)                     |Mostly Classical Arabic|Free         |75.6M|
+|ATB                                    |[LDC](https://catalog.ldc.upenn.edu/LDC2003T06)                          | N/A                                                                      |Modern Standard Arabic |Commercial   |1M   |
+|Tanzil Quran text                      |[tanzil](https://tanzil.net/download/)                                   | N/A                                                                      |Classical Arabic       |Free         |78K  |
+|Wikinews                               |[github](https://github.com/kdarwish/Farasa)                             | N/A                                                                      |Modern Standard Arabic |Free         |18K  |
 
 ### Benchmark Dataset
-| Title                                                                                                |Corpus Link                                                                                           |Paper Link                                                                | Type                  | Availability|Train |Valid |Test |
-| -----------------------------------------------------------------------------------------------------| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |-----------------------|-------------|------|------|-----|
-|Tashkeela variant by  Fadel et al.                                                                    |[github](https://github.com/AliOsm/arabic-text-diacritization/tree/master/dataset)                    |[IEEE](https://ieeexplore.ieee.org/document/8769512)                      |Mostly Classical Arabic|Free         |24.5M |102K  |107K |
-|Tashkeela variant by  Abbad & Xiong                                                                   |[kaggle](https://www.kaggle.com/datasets/hamzaabbad/tashkeela-processed-fully-diacritized-arabic-text)|[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_23)|Mostly Classical Arabic|Free         |31.7M |1.7M  |1.7M |
-|CATT benchmark                                                                                        |[github](https://github.com/abjadai/catt/releases)                                                    |[ACL](https://doi.org/10.18653/v1/2024.arabicnlp-1.21)                    |Modern Standard Arabic |Free         |-     |120K  |125K |
+| Title                               |Corpus Link                                                                                           |Paper Link                                                                | Type                  | Availability|Train |Valid |Test |
+| ------------------------------------| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |-----------------------|-------------|------|------|-----|
+|Tashkeela variant by  Fadel et al.   |[github](https://github.com/AliOsm/arabic-text-diacritization/tree/master/dataset)                    |[IEEE](https://ieeexplore.ieee.org/document/8769512)                      |Mostly Classical Arabic|Free         |24.5M |102K  |107K |
+|Tashkeela variant by  Abbad & Xiong  |[kaggle](https://www.kaggle.com/datasets/hamzaabbad/tashkeela-processed-fully-diacritized-arabic-text)|[Springer](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_23)|Mostly Classical Arabic|Free         |31.7M |1.7M  |1.7M |
+|CATT benchmark                       |[github](https://github.com/abjadai/catt/releases)                                                    |[ACL](https://doi.org/10.18653/v1/2024.arabicnlp-1.21)                    |Modern Standard Arabic |Free         |-     |120K  |125K |
 
 
 ### Studies & Surveys
@@ -236,12 +237,13 @@ This repository serves as a curated collection of surveys, studies, and research
 |An Arabic question-answering system for factoid questions                                                           |2009|[IEEE](https://doi.org/10.1109/NLPKE.2009.5313730)                                    |
 
 # Arabic Retrieval Augmented Generation
-![ANER:](https://img.shields.io/badge/Papers-10-6A737D?style=for-the-badge)
+![ANER:](https://img.shields.io/badge/Papers-12-6A737D?style=for-the-badge)
 ### Studies & Surveys
 |Title                                                                                                                    |Year| Link                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------|----|-----------------------------------------------------------------------------------------------  |
 |Evaluating RAG Pipelines for Arabic Lexical Information Retrieval: A Comparative Study of Embedding and Generation Models|2025|[ACL](https://aclanthology.org/2025.abjadnlp-1.16/)                                              |
 |Optimizing RAG Pipelines for Arabic: A Systematic Analysis of Core Components                                            |2025|[arXiv](https://arxiv.org/abs/2506.06339)                                                        |
+|Optimizing Arabic Information Retrieval: A Comprehensive Evaluation of Preprocessing Techniques                          |2024|[IEEE](https://doi.org/10.1109/ISIVC61350.2024.10577827)                                         |
 |Evaluation of Semantic Search and its Role in Retrieved-Augmented-Generation (RAG) for Arabic Language                   |2024|[arXiv](https://arxiv.org/abs/2403.18350)                                                        |
 |Exploring Retrieval Augmented Generation in Arabic                                                                       |2024|[ELSEVIER](https://doi.org/10.1016/j.procs.2024.10.203)                                          |
 |A Comparative Evaluation of Retrieval-Augmented Generation For Arabic Documents                                          |2024|[IEEE](https://doi.org/10.1109/ACIT62805.2024.10877197)                                          |
@@ -250,11 +252,34 @@ This repository serves as a curated collection of surveys, studies, and research
 ### Papers
 |Title                                                                                                               |Year|Link                                                                               |
 |------------------------------------------------------------------------------------------------------------------- |----|---------------------------------------------------------------------------------- |
+|Enhancing Arabic Retrieval Augmented Generation through Language Processing                                         |2025|[ACL](https://aclanthology.org/2025.icnlsp-1.45/)                                  |
 |Advancing Arabic Medical Question Answering Systems with RAG and LLMs Integration                                   |2025|[IEEE](https://doi.org/10.1109/ICTCS65341.2025.10989446)                           |
 |RFPG: Question-Answering from Low-Resource Language (Arabic) Texts using Factually Aware RAG                        |2025|[IEEE](https://doi.org/10.1109/CIC62241.2024.00023)                                |
 |Enhanced Arabic Retrieval Augmented Generation Using Nested Embedding Models                                        |2025|[Springer](https://link.springer.com/chapter/10.1007/978-3-031-91235-1_11)         |
 |Enhancing Arabic Information Retrieval for Question Answering                                                       |2024|[ACM](https://doi.org/10.1145/3644713.3644763)                                     |
 |Semantic Embeddings for Arabic Retrieval Augmented Generation (ARAG)                                                |2024|[IJACSA](https://doi.org/10.14569/IJACSA.2023.01411135)                            |
+
+# Arabic Information Retrieval
+![ANER:](https://img.shields.io/badge/Papers-10-6A737D?style=for-the-badge)
+### Studies & Surveys
+|Title                                                                                                                    |Year| Link                                                                                            |
+|-------------------------------------------------------------------------------------------------------------------------|----|-----------------------------------------------------------------------------------------------  |
+|A Survey of Model Architectures in Information Retrieval                                                                 |2025|[arXiv](https://doi.org/10.48550/arXiv.2502.14822)                                               |
+|Optimizing Arabic Information Retrieval: A Comprehensive Evaluation of Preprocessing Techniques                          |2024|[IEEE](https://doi.org/10.1109/ISIVC61350.2024.10577827)                                         |
+|A Review on Recent Arabic Information Retrieval Techniques                                                               |2022|[EAI](https://doi.org/10.4108/eetiot.v8i3.2276)                                                  |
+|Arabic Cross-Language Information Retrieval: A Review                                                                    |2016|[ACM](https://doi.org/10.1145/2789210)                                                           |
+
+
+### Papers
+|Title                                                                                                               |Year|Link                                                                               |
+|------------------------------------------------------------------------------------------------------------------- |----|---------------------------------------------------------------------------------- |
+|Enhanced Arabic Text Retrieval with Attentive Relevance Scoring                                                     |2025|[IEEE](https://doi.org/10.1109/MLSP62443.2025.11204239)                            |
+|Incorporating Deep Median Networks for Arabic Document Retrieval Using Word Embeddings-Based Query Expansion        |2024|[JISTaP](https://doi.org/10.1633/JISTaP.2024.12.3.3)                               |
+|Automating the search for legal information in Arabic: A novel approach to document retrieval                       |2024|[RTJ](https://doi.org/10.32362/2500-316X-2024-12-5-7-16)                           |
+|Arabic Documents Information Retrieval for Printed, Handwritten, and Calligraphy Image                              |2021|[IEEE](https://doi.org/10.1109/ACCESS.2021.3066477)                                |
+|NERWS: Towards Improving Information Retrieval of Digital Library Management System Using Named Entity Recognition and Word Sense|2021|[BDCC](https://doi.org/10.3390/bdcc5040059)                           |
+|Improving Arabic information retrieval using word embedding similarities                                            |2018|[Springer](https://link.springer.com/article/10.1007/s10772-018-9492-y)                          |
+
 
 # Arabic Image Captioning
 ![AIC:](https://img.shields.io/badge/Papers-20-6A737D?style=for-the-badge)
