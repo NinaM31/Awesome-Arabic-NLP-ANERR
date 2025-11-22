@@ -1,18 +1,45 @@
-<div align=center>
-<img src="https://github.com/user-attachments/assets/d5c4a90c-2a75-4cba-9577-c2423d28e50a?raw=true" width="300px">
-</div>
-<h2 align="center">Arabic NLP Essential Resource Repository (ANERR): Surveys, Studies, and Research</h2>
+<h1 align="center">
+  ANERR – Arabic NLP Essential Resource Repository  
+  <br>
+  <strong> مصادر معالجة اللغة العربية – أَنِير</strong>
+</h1>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d5c4a90c-2a75-4cba-9577-c2423d28e50a?raw=true" width="260px" alt="ANERR logo">
+</p>
 
-![Total Papers](https://img.shields.io/badge/Paper_Count-222-6A737D?style=for-the-badge)
-![NLP Tasks](https://img.shields.io/badge/Tasks-10-6A737D?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/NinaM31/Arabic-NLP-Resources?style=for-the-badge&color=6A737D)
-![License](https://img.shields.io/badge/License-MIT-6A737D?style=for-the-badge)
+<p align="center">
+  <strong>أَنِير طريق بحثك في معالجة اللغة العربية </strong><br>
+  Illuminate your Arabic NLP research with structured, curated resources
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Paper_Count-222-6A737D?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Tasks-10-6A737D?style=for-the-badge">
+  <img src="https://img.shields.io/github/contributors/NinaM31/Awesome-Arabic-NLP-ANERR?style=for-the-badge&color=6A737D">
+  <img src="https://img.shields.io/badge/License-MIT-6A737D?style=for-the-badge">
+</p>
 
-This repository serves as a curated collection of surveys, studies, and research papers covering various essential Arabic Natural Language Processing (NLP) tasks. We invite you to explore the rich content and contribute to making this an even more robust resource for the global Arabic NLP community. Looking to write a survey paper yourself? Our detailed guide on [How to Write a Systematic Literature Review (SLR)](How-to-Write-a-Survey-Paper/README.md) will walk you through the process.
+---
 
+## 🔦 ما هو مستودع أَنِير (ANERR)؟
+مستودع شامل ومنظم يضم أوراقاً بحثية، دراسات، مسوحات، مجموعات بيانات، أدوات، ونماذج خاصة بمعالجة اللغة العربية الطبيعية.  
+تم بناء ANERR ليكون **خريطة بحثية مضيئة** تساعد الطلاب والباحثين والمهتمين بمجال الـNLP العربي على الوصول للمعلومات بسرعة ووضوح.
 
-## Table Of Contents
+---
+
+## Why ANERR?
+- 200+ papers **with year, task, venue**
+- Includes **datasets, corpora, tools, lexicons, and benchmarks**
+- Covers modern topics: **RAG, Arabic LLMs, reasoning, multimodal, QA**
+- Designed for **researchers, students, and practitioners**
+- More structured and detailed than traditional "paper list" repos
+
+Looking to write a survey paper yourself?  
+👉 Check our guide: [How to Write a Systematic Literature Review (SLR)](How-to-Write-a-Survey-Paper/README.md)
+
+---
+
+## Table of Contents
 - [Text Diacritization](#arabic-text-diacritization)
 - [Text Summarization](#arabic-text-summarization)
 - [Word Disambiguation](#arabic-word-disambiguation)
