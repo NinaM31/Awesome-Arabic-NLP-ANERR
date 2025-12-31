@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Paper_Count-222-6A737D?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Paper_Count-223-6A737D?style=for-the-badge">
   <img src="https://img.shields.io/badge/Tasks-10-6A737D?style=for-the-badge">
   <img src="https://img.shields.io/github/contributors/NinaM31/Awesome-Arabic-NLP-ANERR?style=for-the-badge&color=6A737D">
   <img src="https://img.shields.io/badge/License-MIT-6A737D?style=for-the-badge">
@@ -226,7 +226,7 @@ Looking to write a survey paper yourself?
 |Deep learning approaches for Arabic sentiment analysis                                                                         |2019|[Springer](https://link.springer.com/article/10.1007/s13278-019-0596-4)    |
 
 ## Arabic Question-Answering Systems
-![AQAS:](https://img.shields.io/badge/Papers-28-6A737D?style=for-the-badge)
+![AQAS:](https://img.shields.io/badge/Papers-29-6A737D?style=for-the-badge)
 ### Studies & Surveys
 | Title                                                                                                                          |Year| Link                                                                                  |
 | -------------------------------------------------------------------------------------------------------------------------------|----|-------------------------------------------------------------------------------------  |
@@ -240,6 +240,7 @@ Looking to write a survey paper yourself?
 |Arabic Question Answering Systems: Gap Analysis                                                                                 |2021|[IEEE](https://doi.org/10.1109/ACCESS.2021.3074950)                                    |
 |Pre-trained Transformer-Based Approach for Arabic Question Answering : A Comparative Study                                      |2021|[arXiv](http://dx.doi.org/10.48550/arXiv.2111.05671)                                   |
 |Arabic Question Answering: A Study on Challenges, Systems, and Techniques                                                       |2019|[IJCA](http://dx.doi.org/10.5120/ijca2019918524)                                       |
+|Question Answering Systems Approaches and Challenges                                                                            |2019|[ACL](https://aclanthology.org/R19-2011/)                                              |
 |A Review and Future Perspectives of Arabic Question Answering Systems                                                           |2016|[IEEE](https://doi.org/10.1109/TKDE.2016.2607201)                                      |
 |Arabic Question Answering: Systems, Resources, Tools, and Future Trends                                                         |2014|[Springer](https://link.springer.com/article/10.1007/s13369-014-1062-2)                |
 
